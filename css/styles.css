@@ -1,0 +1,139 @@
+:root {
+    --color-primary: #434455;
+    --color-secondary: #2E2F42;
+    --color-action: #4D5AE5;
+    --color-hero: #ffffff;
+    --color-light: #F4F4FD;
+    --background-hero: #2E2F42;
+    --background-primary: #E5E5E5;
+    --background-secondary: #F4F4FD;
+    --background-button: #404BBF;
+}  
+body {
+ background-color: var(--background-primary);
+ color: var(--color-primary);
+ font-family: "Roboto",sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+}
+ul {
+    list-style: none;
+}
+/*header*/
+.header {
+ background-color: var(--color-hero);
+}
+.logo {
+ color: var(--color-action);
+ font-family: 'Raleway';
+ font-style: normal;
+ text-decoration: none;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 1.2;
+ text-transform: uppercase;  
+}
+.logo-stud {
+    color: var(--color-secondary);
+}
+.link {
+ color: var(--color-secondary);
+ font-style: normal; 
+ font-weight: 500;
+ text-decoration: none;
+}
+.link-aktive {
+ color: var(--color-action);
+ text-decoration: none;    
+}
+.link-info {
+ color: var(--color-primary);
+ font-style: normal;
+ text-decoration: none;
+}
+/*main section hero*/
+.hero-container {
+ background-color: var(--background-hero);
+}   
+.hero-title {
+ color: var(--color-hero);
+ font-weight: 700;
+ font-size: 56px;
+ line-height: 1.1;
+}
+.button-hero {
+ color: var(--color-hero);
+ background-color: var(--color-action);
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+ cursor: pointer;
+}
+.button-hero:hover,
+.button-hero:focus {
+background-color: var(--background-button);
+}
+/*section Our advantages*/
+.title {
+color: var(--color-secondary);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}  
+/*section we doing*/
+.doing-title {
+color: var(--color-secondary);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+}
+/*section team*/
+.team {
+background-color: var(--background-secondary);
+}
+.team-title {
+color: var(--color-secondary);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+}
+.name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+/*footer*/
+.footer {
+background-color: var(--background-hero);
+}
+.accent {
+color: var(--color-light);
+}
+.footer-text {
+color: var(--color-light);
+}
+/*portfolio*/
+.button {
+color: var(--color-action);
+background-color: var(--background-secondary);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+}
+.button:hover,
+.button:focus {
+ color: var(--color-hero);
+ background-color: var(--background-button);
+}
+.portfolio-title {
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;   
+}
