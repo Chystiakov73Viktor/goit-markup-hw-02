@@ -47,10 +47,12 @@ body {
 .menu-link:focus {
  color: var(--background-button);
 }
-
+.info {
+font-style: normal;
+}
 .link-info {
  color: var(--color-primary);
- font-style: normal;
+ line-height: 1.5;
  letter-spacing: 0.02em;
 }
 .link-info:hover,
@@ -72,7 +74,7 @@ letter-spacing: 0.02em;
 .button-hero {
  color: var(--color-hero);
  background-color: var(--color-action);
- font-family: 'Roboto' sans-serif;
+ font-family: "Roboto",sans-serif;
  font-weight: 500;
  font-size: 16px;
  line-height: 1.5;
@@ -92,7 +94,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .text {
- letter-spacing: 0.02em;   
+ letter-spacing: 0.02em;
+ line-height: 1.5;   
 }
 
 /*section we doing*/
@@ -129,7 +132,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .speciality {
- letter-spacing: 0.02em;   
+ letter-spacing: 0.02em;
+ line-height: 1.5;   
 }
 /*footer*/
 .footer {
@@ -166,5 +170,7 @@ cursor: pointer;
     letter-spacing: 0.02em;   
 }
 .portfolio-text {
-    letter-spacing: 0.02em;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
