@@ -5,7 +5,7 @@
     --color-hero: #ffffff;
     --color-light: #F4F4FD;
     --background-hero: #2E2F42;
-    --background-primary: #E5E5E5;
+    --background-primary: #ffffff;
     --background-secondary: #F4F4FD;
     --background-button: #404BBF;
 }  
@@ -13,44 +13,49 @@ body {
  background-color: var(--background-primary);
  color: var(--color-primary);
  font-family: "Roboto",sans-serif;
- font-weight: 400;
- font-size: 16px;
- line-height: 1.5;
 }
-ul {
-    list-style: none;
-}
-/*header*/
-.header {
- background-color: var(--color-hero);
-}
-.logo {
- color: var(--color-action);
- font-family: 'Raleway';
- font-style: normal;
- text-decoration: none;
- font-weight: 800;
- font-size: 18px;
- line-height: 1.2;
- text-transform: uppercase;  
-}
-.logo-stud {
-    color: var(--color-secondary);
+.list {
+    list-style: none; 
 }
 .link {
- color: var(--color-secondary);
- font-style: normal; 
- font-weight: 500;
  text-decoration: none;
 }
-.link-aktive {
+
+/*header*/
+.logo {
  color: var(--color-action);
- text-decoration: none;    
+ font-family: 'Raleway',sans-serif;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 1.17;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;  
 }
+.stud {
+    color: var(--color-secondary);
+}
+
+.menu-link {
+ color: var(--color-secondary);
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+ color: var(--background-button);
+}
+
 .link-info {
  color: var(--color-primary);
  font-style: normal;
- text-decoration: none;
+ letter-spacing: 0.02em;
+}
+.link-info:hover,
+.link-info:focus {
+ color: var(--background-button);
 }
 /*main section hero*/
 .hero-container {
@@ -60,16 +65,18 @@ ul {
  color: var(--color-hero);
  font-weight: 700;
  font-size: 56px;
- line-height: 1.1;
+ line-height: 1.07;
+ text-align: center;
+letter-spacing: 0.02em;
 }
 .button-hero {
  color: var(--color-hero);
  background-color: var(--color-action);
- font-family: 'Roboto';
- font-style: normal;
+ font-family: 'Roboto' sans-serif;
  font-weight: 500;
  font-size: 16px;
- line-height: 24px;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
  cursor: pointer;
 }
 .button-hero:hover,
@@ -82,28 +89,47 @@ color: var(--color-secondary);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-}  
+letter-spacing: 0.02em;
+}
+.text {
+ letter-spacing: 0.02em;   
+}
+
 /*section we doing*/
 .doing-title {
 color: var(--color-secondary);
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 }
 /*section team*/
 .team {
 background-color: var(--background-secondary);
 }
+.team-img {
+ background-color: var(--background-primary);   
+}
 .team-title {
 color: var(--color-secondary);
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 }
 .name {
+color: var(--color-secondary) ;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.speciality {
+ letter-spacing: 0.02em;   
 }
 /*footer*/
 .footer {
@@ -119,11 +145,12 @@ color: var(--color-light);
 .button {
 color: var(--color-action);
 background-color: var(--background-secondary);
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.04em;
 cursor: pointer;
 }
 .button:hover,
@@ -135,5 +162,9 @@ cursor: pointer;
     color: var(--color-secondary);
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;   
+    line-height: 1.2;
+    letter-spacing: 0.02em;   
+}
+.portfolio-text {
+    letter-spacing: 0.02em;
 }
